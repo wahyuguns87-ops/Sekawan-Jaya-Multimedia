@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #080a10;
+  --panel: #111521;
+  --panel2: #171c2a;
+  --line: #292f40;
+  --gold: #e7b83f;
+  --gold2: #ffd977;
+  --text: #f4f3ef;
+  --muted: #a3a9b8;
+  --green: #49d49d;
+  --radius: 18px;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(ellipse at 50% -15%, #272238 0%, #080a10 53%);
+  color: var(--text);
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.brand-font {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+}
+
+/* Custom scrollbars for modal and code/lyric blocks */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0e16;
+}
+::-webkit-scrollbar-thumb {
+  background: #2b3144;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #414a63;
+}
